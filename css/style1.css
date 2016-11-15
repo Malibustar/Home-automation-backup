@@ -1,0 +1,109 @@
+@charset "utf-8";
+.wrapper {
+	background-color: #00F;
+	float: none;
+	height: 700px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav_bar {
+	float: left;
+	height: 100px;
+	width: 800px;
+	background:linear-gradient(grey,black);
+	
+}
+.button {
+	float: left;
+	height: 100px;
+	width: 19.87%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+.wrapper .nav_bar .button a {
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	height: 80%;
+	width: 100%;
+	padding-top: 20%;
+}
+.box1 {
+	float: left;
+	height: 250px;
+	width: 100%;
+	border-top: thin solid #FFF;
+	background-image:url(../images/banner.png)
+}
+.box2 {
+	float: left;
+	height: 50px;
+	width: 100%;
+	border-top: thin solid #FFF;
+}
+.box3 {
+	float: left;
+	height: 50px;
+	width: 70%;
+	border-top: thin solid #FFF;
+	background-color:#333;
+}
+.box4 {
+	float: left;
+	height: 50px;
+	width: 30%;
+	border-top: thin solid #FFF;
+	background-color: #CCC;
+	padding-top: 0px;
+}
+.box5 {
+	float: left;
+	height: 300px;
+	width: 30%;
+	border-top: thin solid #FFF;
+	background-color:#CCC;
+	border-radius:100px;
+	/*codes from here is comment*/
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	box-shadow:#333 5px 5px 5px;
+	-moz-box-shadow:#333 5px 5px 5px;
+	-o-box-shadow:#333 5px 5px 5px;
+}
+.box6 {
+	float: left;
+	height: 300px;
+	width: 20%;
+	border-top: thin solid #FFF;
+	background-color:#CCC;
+	opacity:0.4;
+	transition-property:all;
+	transition-duration:3s;
+}
+.box6:hover{
+	height: 400px;
+	width: 25%;
+	transform:translate(40px,40px);
+	transform:rotate(45deg);
+	
+}
+.ani-color{
+	width:200px;
+	height:200px;
+	float:left;
+	background-color:#FFF;
+	animation-name:animate-color;
+	animation-duration:4s;
+	animation-timing-function:ease-in-out;
+	animation-iteration-count:infinite;
+	}
+@keyframes animate-color{
+	0% {background-color:#00F; font-size:36px;}
+	50% {background-color:#30C; font-size:18px;}
+	100% {background-color:#FFF; font-size:36px;}
+}
